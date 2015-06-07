@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4" >
+    
+    <TableRow>
+        <TextView
+            android:text="Table Layout Fragment" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:text="Welcome" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:text="Name" />
+        <EditText />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:text="Email" />
+        <EditText
+            android:ems="5" />
+    </TableRow>
+    
+    <TableRow>
+        <RadioButton
+            android:text="Male" />
+    </TableRow>
+    
+    <TableRow>
+        <RadioButton
+            android:text="Female" />
+    </TableRow>
+    
+    <TableRow>
+        <Button
+            android:text="Back" />
+        <Button
+            android:text="Clear" />
+        <Button
+            android:text="Submit" />
+    </TableRow>
+
+</TableLayout>
